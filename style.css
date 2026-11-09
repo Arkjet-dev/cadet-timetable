@@ -11,3 +11,7 @@ main{max-width:760px;margin:auto;padding:1rem}.card{background:var(--card);borde
 .s .body{padding:.7rem .9rem;flex:1}.s .d{font-size:.8rem;opacity:.75}.s .t{font-weight:600}.s .more{display:none;margin-top:.5rem;font-size:.9rem;opacity:.9}
 .s.open .more{display:block}.s.past{opacity:.45}.s.today{outline:3px solid #ffd54f}.s.isnext{outline:2px dashed #ffd54f}
 .badge{font-size:.7rem;background:#ffd54f;color:#000;border-radius:4px;padding:1px 5px;margin-left:.4rem}.note{font-size:.8rem;opacity:.65;text-align:center}
+
+.dl{margin-top:.75rem;display:inline-flex;align-items:center;gap:.4rem;border:0;border-radius:8px;padding:.55rem .9rem;font-size:.9rem;font-weight:600;cursor:pointer;background:#ffd54f;color:#0f1b2d}
+.dl:disabled{opacity:.6;cursor:wait}
+.dl-sm{margin-top:.55rem;padding:.4rem .75rem;font-size:.8rem}
